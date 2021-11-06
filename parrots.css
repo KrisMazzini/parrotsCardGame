@@ -20,6 +20,8 @@ h1 {
     line-height: 65.63px;
     letter-spacing: -0.004em;
 
+    text-align: center;
+
     color: #75B79E;
 }
 
@@ -94,4 +96,22 @@ h1 {
 img {
     width: 100px;
     height: 100px;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 36px;
+        line-height: 42.19px;
+    }
+
+    .table {
+        flex-direction: column;
+    }
+
+    .timer {
+        width: 52px;
+        height: 20px;
+
+        font-size: 16px;
+    }
 }
